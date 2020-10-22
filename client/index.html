@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <script>
+        var browser = navigator.appName
+        var ver = navigator.appVersion
+        var thestart = parseFloat(ver.indexOf("MSIE")) + 1 //This finds the start of the MS version string.
+        var brow_ver = parseFloat(ver.substring(thestart + 4, thestart + 7)) //This cuts out the bit of string we need.
+        if ((browser == "Microsoft Internet Explorer") && (brow_ver < 11)) //By default the min. IE ver is set to 6. Change as desired.
+        {
+            window.location = "https://vlab.aapp.al-enterprise.com/doku.php?id=supported_browsers"; //URL to redirect to.
+        }
+    </script>
+
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit" async defer>
+    </script>
+</head>
+
+<body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+</body>
+
+</html>

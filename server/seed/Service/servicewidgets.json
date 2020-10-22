@@ -1,0 +1,43 @@
+[{
+    "ServiceId": 1,
+    "WidgetId": 1
+}, {
+    "ServiceId": 2,
+    "WidgetId": 2
+}, {
+    "ServiceId": 2,
+    "WidgetId": 3
+}, {
+    "ServiceId": 2,
+    "WidgetId": 4
+}, {
+    "ServiceId": 2,
+    "WidgetId": 5
+}, {
+    "ServiceId": 2,
+    "WidgetId": 6
+}, {
+    "ServiceId": 2,
+    "WidgetId": 7
+}, {
+    "ServiceId": 2,
+    "WidgetId": 8
+}, {
+    "ServiceId": 2,
+    "WidgetId": 9
+}, {
+    "ServiceId": 2,
+    "WidgetId": 10
+}, {
+    "ServiceId": 3,
+    "WidgetId": 11
+}, {
+    "ServiceId": 3,
+    "WidgetId": 12
+}, {
+    "ServiceId": 4,
+    "WidgetId": 13
+}, {
+    "ServiceId": 4,
+    "WidgetId": 14
+}]

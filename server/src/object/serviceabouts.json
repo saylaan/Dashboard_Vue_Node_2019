@@ -1,0 +1,279 @@
+[{
+    "name": "openweather",
+    "widgets": [{
+        "name": "City weather",
+        "description": "Current weather in given city",
+        "params": [{
+            "name": "x",
+            "type": "integer"
+        }, {
+            "name": "y",
+            "type": "integer"
+        }, {
+            "name": "account",
+            "type": "string"
+        }, {
+            "name": "url",
+            "type": "string"
+        }, {
+            "name": "data",
+            "type": "string"
+        }]
+    }, {
+        "name": "City weather forecast",
+        "description": "5 day city forecast",
+        "params": [{
+            "name": "x",
+            "type": "integer"
+        }, {
+            "name": "y",
+            "type": "integer"
+        }, {
+            "name": "account",
+            "type": "string"
+        }, {
+            "name": "url",
+            "type": "string"
+        }, {
+            "name": "data",
+            "type": "string"
+        }]
+    }]
+}, {
+    "name": "imgur",
+    "widgets": [{
+        "name": "Upload image",
+        "description": "Uploads an image to the imgur account",
+        "params": [{
+            "name": "x",
+            "type": "integer"
+        }, {
+            "name": "y",
+            "type": "integer"
+        }, {
+            "name": "account",
+            "type": "string"
+        }, {
+            "name": "url",
+            "type": "string"
+        }, {
+            "name": "data",
+            "type": "string"
+        }]
+    }, {
+        "name": "Delete image",
+        "description": "Deletes an image from the imgur account",
+        "params": [{
+            "name": "x",
+            "type": "integer"
+        }, {
+            "name": "y",
+            "type": "integer"
+        }, {
+            "name": "account",
+            "type": "string"
+        }, {
+            "name": "url",
+            "type": "string"
+        }, {
+            "name": "data",
+            "type": "string"
+        }]
+    }, {
+        "name": "Upload video",
+        "description": "Uploads an image to the imgur account",
+        "params": [{
+            "name": "x",
+            "type": "integer"
+        }, {
+            "name": "y",
+            "type": "integer"
+        }, {
+            "name": "account",
+            "type": "string"
+        }, {
+            "name": "url",
+            "type": "string"
+        }, {
+            "name": "data",
+            "type": "string"
+        }]
+    }, {
+        "name": "Delete video",
+        "description": "Deletes an image from the imgur account",
+        "params": [{
+            "name": "x",
+            "type": "integer"
+        }, {
+            "name": "y",
+            "type": "integer"
+        }, {
+            "name": "account",
+            "type": "string"
+        }, {
+            "name": "url",
+            "type": "string"
+        }, {
+            "name": "data",
+            "type": "string"
+        }]
+    }, {
+        "name": "Create album",
+        "description": "Creates an empty album",
+        "params": [{
+            "name": "x",
+            "type": "integer"
+        }, {
+            "name": "y",
+            "type": "integer"
+        }, {
+            "name": "account",
+            "type": "string"
+        }, {
+            "name": "url",
+            "type": "string"
+        }, {
+            "name": "data",
+            "type": "string"
+        }]
+    }, {
+        "name": "Delete album",
+        "description": "Delete an album",
+        "params": [{
+            "name": "x",
+            "type": "integer"
+        }, {
+            "name": "y",
+            "type": "integer"
+        }, {
+            "name": "account",
+            "type": "string"
+        }, {
+            "name": "url",
+            "type": "string"
+        }, {
+            "name": "data",
+            "type": "string"
+        }]
+    }, {
+        "name": "Add album",
+        "description": "Add an item to an album",
+        "params": [{
+            "name": "x",
+            "type": "integer"
+        }, {
+            "name": "y",
+            "type": "integer"
+        }, {
+            "name": "account",
+            "type": "string"
+        }, {
+            "name": "url",
+            "type": "string"
+        }, {
+            "name": "data",
+            "type": "string"
+        }]
+    }, {
+        "name": "Remove album",
+        "description": "Remove an item from an album",
+        "params": [{
+            "name": "x",
+            "type": "integer"
+        }, {
+            "name": "y",
+            "type": "integer"
+        }, {
+            "name": "account",
+            "type": "string"
+        }, {
+            "name": "url",
+            "type": "string"
+        }, {
+            "name": "data",
+            "type": "string"
+        }]
+    }]
+}, {
+    "name": "google",
+    "widgets": [{
+        "name": "Book vacation",
+        "description": "",
+        "params": [{
+            "name": "x",
+            "type": "integer"
+        }, {
+            "name": "y",
+            "type": "integer"
+        }, {
+            "name": "account",
+            "type": "string"
+        }, {
+            "name": "url",
+            "type": "string"
+        }, {
+            "name": "data",
+            "type": "string"
+        }]
+    }, {
+        "name": "View calandar",
+        "description": "",
+        "params": [{
+            "name": "x",
+            "type": "integer"
+        }, {
+            "name": "y",
+            "type": "integer"
+        }, {
+            "name": "account",
+            "type": "string"
+        }, {
+            "name": "url",
+            "type": "string"
+        }, {
+            "name": "data",
+            "type": "string"
+        }]
+    }]
+}, {
+    "name": "amadeus",
+    "widgets": [{
+        "name": "Search cheap flight",
+        "description": "Get cheap flights from a city  to another",
+        "params": [{
+            "name": "x",
+            "type": "integer"
+        }, {
+            "name": "y",
+            "type": "integer"
+        }, {
+            "name": "account",
+            "type": "string"
+        }, {
+            "name": "url",
+            "type": "string"
+        }, {
+            "name": "data",
+            "type": "string"
+        }]
+    }, {
+        "name": "Book flight",
+        "description": "Books a specific flight",
+        "params": [{
+            "name": "x",
+            "type": "integer"
+        }, {
+            "name": "y",
+            "type": "integer"
+        }, {
+            "name": "account",
+            "type": "string"
+        }, {
+            "name": "url",
+            "type": "string"
+        }, {
+            "name": "data",
+            "type": "string"
+        }]
+    }]
+}]

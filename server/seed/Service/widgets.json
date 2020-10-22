@@ -1,0 +1,43 @@
+[{
+    "name": "City weather",
+    "description": "Current weather in given city"
+}, {
+    "name": "City weather forecast",
+    "description": "5 day city forecast"
+}, {
+    "name": "Upload image",
+    "description": "Uploads an image to the imgur account"
+}, {
+    "name": "Delete image",
+    "description": "Deletes an image from the imgur account"
+}, {
+    "name": "Upload video",
+    "description": "Uploads an image to the imgur account"
+}, {
+    "name": "Delete video",
+    "description": "Deletes an image from the imgur account"
+}, {
+    "name": "Create album",
+    "description": "Creates an empty album"
+}, {
+    "name": "Delete album",
+    "description": "Delete an album"
+}, {
+    "name": "Add album",
+    "description": "Add an item to an album"
+}, {
+    "name": "Remove album",
+    "description": "Remove an item from an album"
+}, {
+    "name": "Book vacation",
+    "description": ""
+}, {
+    "name": "View calandar",
+    "description": ""
+}, {
+    "name": "Search cheap flight",
+    "description": "Get cheap flights from a city  to another"
+}, {
+    "name": "Book flight",
+    "description": "Books a specific flight"
+}]

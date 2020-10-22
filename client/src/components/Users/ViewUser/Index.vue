@@ -1,0 +1,34 @@
+<template>
+  <v-layout class="mt-5" justify-center v-if="isUserLoggedIn && admin">
+      <v-flex xs6>
+        <user-data v-bind:userview="userview"/>
+      </v-flex>
+  </v-layout>
+</template>
+
+<script>
+import { mapState } from "vuex";
+import UserData from "./UserData";
+import UserService from "@/services/ApiAxios/User/UserService";
+
+export default {
+  data() {
+    return {
+      userview: {}
+    };
+  },
+  computed: {
+    ...mapState(["isUserLoggedIn", "user", "route", "admin"])
+  },
+  async mounted() {
+    const userId = this.route.params.userId;
+    this.userview = (await UserService.getUser(userId)).data;
+  },
+  components: {
+    UserData
+  }
+};
+</script>
+
+<style scoped>
+</style>
